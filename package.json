@@ -1,0 +1,51 @@
+{
+  "name": "bsg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ably": "^1.1.20",
+    "aws-sdk": "^2.517.0",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
+    "fs": "0.0.1-security",
+    "http-errors": "^1.7.3",
+    "https": "^1.0.0",
+    "jimp": "^0.8.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.9",
+    "mongoose-sequence": "^5.2.1",
+    "mongoose-timestamp": "^0.6.0",
+    "mongoose-to-swagger": "0.0.4",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pubnub": "^4.25.2",
+    "qr-image": "^3.2.0",
+    "qrcode": "^1.4.4",
+    "querystring": "^0.2.0",
+    "randomatic": "^3.1.1",
+    "razorpay": "^2.0.5",
+    "swagger-jsdoc": "^3.4.0",
+    "swagger-ui-express": "^4.1.0",
+    "typescript": "^3.6.4",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
